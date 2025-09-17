@@ -2,10 +2,55 @@
   * {
     border: 1px dashed;
   }
+
+  header {
+    background-color: antiquewhite;
+    height: 70px;
+  }
+
+  .left-menu, .right-menu {
+    background-color: aquamarine;
+  }
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  margin: 0 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.menu {
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 0 8px;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-start {
+  background-color: royalblue;
+  color: white;
 }
