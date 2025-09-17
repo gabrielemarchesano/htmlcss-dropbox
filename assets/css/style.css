@@ -15,7 +15,8 @@
 
   section {
     background-color: cadetblue;
-    height: 500px;
+    height: auto;
+    margin: 100px 0;
 
     .container {
       background-color: brown;
@@ -25,6 +26,12 @@
     .container-sm {
       background-color: yellowgreen;
     }
+
+    .partner-col {
+      background-color: turquoise;
+      height: 400px;
+      width: 48%;
+    }
   }
 
   .row {
@@ -33,14 +40,20 @@
 
   .col-33{
     background-color: tomato;
-    height: 200px;
+    height: 600px;
+
+    
   }
 
   .col-100 {
     background-color: crimson ;
     height: 200px;
   }
-
+  
+  .col-header {
+    background-color: bisque;
+    height: 40px;
+  }
 }
 
 * {
@@ -119,9 +132,18 @@ header a {
 }
 
 .col-33 {
-  width: calc(100% / 3 - 1rem);
+  width: calc(100% / 3 - 1rem)
 }
 
 .col-100 {
   width: 100%;
+}
+
+.col-header {
+  text-align: center;
+  padding: 10px;
+}
+
+.partner-cont {
+  justify-content: space-between;
 }
