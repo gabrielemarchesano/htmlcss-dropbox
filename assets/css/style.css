@@ -22,6 +22,23 @@
       height: 100%;
     }
 
+    .container-sm {
+      background-color: yellowgreen;
+    }
+  }
+
+  .row {
+    background-color: cornflowerblue;
+  }
+
+  .col-33{
+    background-color: tomato;
+    height: 200px;
+  }
+
+  .col-100 {
+    background-color: crimson ;
+    height: 200px;
   }
 
 }
@@ -94,4 +111,17 @@ header a {
 
 #jumbotron {
   background-color: #B4D0E6;
+}
+
+.row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 1rem);
+}
+
+.col-100 {
+  width: 100%;
 }
