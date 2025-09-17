@@ -6,11 +6,24 @@
   header {
     background-color: antiquewhite;
     height: 70px;
+
+    .left-menu,
+    .right-menu {
+      background-color: aquamarine;
+    }
   }
 
-  .left-menu, .right-menu {
-    background-color: aquamarine;
+  section {
+    background-color: cadetblue;
+    height: 500px;
+
+    .container {
+      background-color: brown;
+      height: 100%;
+    }
+
   }
+
 }
 
 * {
@@ -27,6 +40,10 @@ header a {
 
 .d-flex {
   display: flex;
+}
+
+.d-block {
+  display: block;
 }
 
 .navbar {
@@ -53,4 +70,28 @@ header a {
 .btn-start {
   background-color: royalblue;
   color: white;
+}
+
+.btn-trial {
+  margin: 20px 0;
+  background-color: royalblue;
+  color: white;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-sm {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+#jumbotron {
+  background-color: #B4D0E6;
 }
