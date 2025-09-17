@@ -26,12 +26,7 @@
     .container-sm {
       background-color: yellowgreen;
     }
-
-    .partner-col {
-      background-color: turquoise;
-      height: 400px;
-      width: 48%;
-    }
+ 
   }
 
   .row {
@@ -42,7 +37,6 @@
     background-color: tomato;
     height: 600px;
 
-    
   }
 
   .col-100 {
@@ -54,6 +48,23 @@
     background-color: bisque;
     height: 40px;
   }
+  
+  .partner-col {
+      background-color: turquoise;
+      height: 400px;
+      width: 48%;
+  }
+
+  #business h2 {
+    height: 50px;
+  }
+
+  #business .col-33 {
+    background-color: rgb(45, 83, 117);
+    height: 400px;
+    margin: 20px 0;
+  }
+
 }
 
 * {
