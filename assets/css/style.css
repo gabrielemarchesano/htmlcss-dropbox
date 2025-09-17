@@ -65,6 +65,10 @@
     margin: 20px 0;
   }
 
+  .client-container {
+    height: 200px;
+  }
+
 }
 
 * {
