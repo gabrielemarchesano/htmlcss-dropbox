@@ -69,12 +69,32 @@
     height: 200px;
   }
 
+  footer {
+    background-color: black;
+    height: 400px;
+
+    span {
+      background-color: white;
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .col-foot {
+    background-color: wheat;
+    height: 200px;
+  }
+
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;;
 }
 
 header a {
@@ -154,6 +174,10 @@ header a {
   width: 100%;
 }
 
+.col-foot {
+  width: calc(100% / 5);
+}
+
 .col-header {
   text-align: center;
   padding: 10px;
@@ -162,3 +186,14 @@ header a {
 .partner-cont {
   justify-content: space-between;
 }
+
+footer {
+  color: white;
+  padding: 20px;
+  
+  .language {
+    display: block;
+  }
+
+}
+
