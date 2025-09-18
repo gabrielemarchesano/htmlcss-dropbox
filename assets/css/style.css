@@ -103,6 +103,10 @@ header a {
   margin: 0 12px;
 }
 
+ul {
+  list-style: none;
+}
+
 .d-flex {
   display: flex;
 }
