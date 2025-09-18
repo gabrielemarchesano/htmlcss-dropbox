@@ -52,7 +52,6 @@
   .partner-col {
       background-color: turquoise;
       height: 400px;
-      width: 48%;
   }
 
   #business h2 {
@@ -112,6 +111,15 @@ ul {
   list-style: none;
 }
 
+section {
+  padding: 100px 0;
+}
+
+hr {
+  width: 30%;
+  margin: 30px 20px;
+}
+
 .d-flex {
   display: flex;
 }
@@ -120,9 +128,7 @@ ul {
   display: block;
 }
 
-section {
-  padding: 100px 0;
-}
+
 
 .navbar {
   justify-content: space-between;
@@ -185,6 +191,10 @@ section {
   .col-header {
     border-bottom: 1px solid grey;
   }
+
+  .col-body {
+      padding: 20px;
+  }
 }
 
 .col-33 {
@@ -223,3 +233,9 @@ footer {
   color: blue;
 }
 
+.btn-partner {
+  font-size: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
