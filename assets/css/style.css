@@ -97,10 +97,15 @@ html {
   font-family: "Open Sans", sans-serif;;
 }
 
-header a {
-  text-decoration: none;
-  color: black;
-  margin: 0 12px;
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+  }
 }
 
 ul {
@@ -113,6 +118,10 @@ ul {
 
 .d-block {
   display: block;
+}
+
+section {
+  padding: 100px 0;
 }
 
 .navbar {
