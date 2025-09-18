@@ -165,16 +165,21 @@ footer {
   margin: 0 8px;
   border: none;
   border-radius: 2px;
+  display: block;
 }
 
 .btn-blue {
-  background-color: royalblue;
+  background-color: #0061FE;
   color: white;
+}
+
+.btn-login {
+  
 }
 
 .btn-trial {
   margin: 20px 0;
-  background-color: royalblue;
+  background-color: #0061FE;
   color: white;
 }
 
@@ -252,7 +257,7 @@ footer {
 
 footer {
   color: white;
-  padding: 20px;
+  padding: 50px 0;
   
   .language {
     display: block;
@@ -289,4 +294,8 @@ footer {
   width: 10%;
   padding: 50px 0;
   border-top: 1px solid white;
+}
+
+.margin {
+  margin: 20px 0;
 }
