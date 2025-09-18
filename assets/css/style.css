@@ -197,6 +197,11 @@ footer {
 #jumbotron {
   background-color: #B4D0E6;
   margin-bottom: 50px;
+
+  h1 {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 .img {
