@@ -166,6 +166,14 @@ header a {
   flex-wrap: wrap;
 }
 
+.col {
+  border: 1px solid grey;
+
+  .col-header {
+    border-bottom: 1px solid grey;
+  }
+}
+
 .col-33 {
   width: calc(100% / 3 - 1rem)
 }
@@ -182,6 +190,7 @@ header a {
   text-align: center;
   padding: 10px;
 }
+
 
 .partner-cont {
   justify-content: space-between;
