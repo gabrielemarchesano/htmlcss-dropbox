@@ -124,6 +124,18 @@ hr {
   margin: 30px 20px;
 }
 
+h1, h2, h3, p {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: black;
+}
+
 .d-flex {
   display: flex;
 }
@@ -167,7 +179,7 @@ hr {
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -212,6 +224,7 @@ hr {
 
 .col-foot {
   width: calc(100% / 5);
+  margin-right: 30px;
 }
 
 .col-header {
@@ -263,15 +276,17 @@ footer {
   margin-bottom: 50px;
 }
 
-.margin-btm-10 {
-  margin-bottom: 10px;
-}
-
-.margin-btm-20{
-  margin-bottom: 20px;
-}
-
 .period {
   display: block;
   color: lightgrey;
+}
+
+.columns {
+  margin-bottom: 20px;
+}
+
+.language {
+  width: 10%;
+  padding: 50px 0;
+  border-top: 1px solid white;
 }
