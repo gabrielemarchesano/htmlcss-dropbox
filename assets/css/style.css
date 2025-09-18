@@ -136,7 +136,7 @@ ul {
   border-radius: 2px;
 }
 
-.btn-start {
+.btn-blue {
   background-color: royalblue;
   color: white;
 }
@@ -208,5 +208,9 @@ footer {
     display: block;
   }
 
+}
+
+.fa-check {
+  color: blue;
 }
 
